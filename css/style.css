@@ -77,9 +77,9 @@ tr:nth-child(6) :nth-child(n + 13):nth-child(-n + 15),
 tr:nth-child(7) :nth-child(n + 13):nth-child(-n + 14) {
   background-color: crimson;
 }
-tr:nth-last-child(2) {
+tr:nth-child(8) td:nth-child(n + 2):nth-child(-n + 15) {
   background-color: lightblue;
 }
-tr:nth-last-child(1) {
+tr:nth-child(9) td:nth-child(n + 1):nth-child(-n + 14) {
   background-color: blue;
 }
