@@ -22,8 +22,18 @@ td:hover {
   background-color: rgb(217, 217, 217, 0.9);
   cursor: pointer;
 }
+td:empty {
+  border: none;
+  pointer-events: none;
+}
 tr:nth-child(1) td:nth-child(1) {
   background-color: yellow;
+}
+tr:nth-child(1) td:nth-child(2),
+tr:nth-child(2) td:nth-child(3),
+tr:nth-child(2) td:nth-child(3),
+tr:nth-child(3) td:nth-child(3) {
+  border: none;
 }
 tr:nth-child(2) td:nth-child(1),
 tr:nth-child(3) td:nth-child(1),
