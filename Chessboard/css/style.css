@@ -5,14 +5,13 @@
 }
 
 table {
-  width: 90vw;
-  height: 90vh;
-  margin: 5rem auto;
+  margin: 80px auto;
   border: black solid 1px;
+  border-collapse: collapse;
 }
 td {
-  width: 5rem;
-  height: 5rem;
+  width: 70px;
+  height: 70px;
   border: black 1px solid;
 }
 
