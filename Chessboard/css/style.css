@@ -15,37 +15,8 @@ td {
   height: 5rem;
   border: black 1px solid;
 }
-tr:nth-child(1) :nth-child(2),
-tr:nth-child(1) :nth-child(4),
-tr:nth-child(1) :nth-child(6),
-tr:nth-child(1) :nth-child(8),
-tr:nth-child(2) :nth-child(1),
-tr:nth-child(2) :nth-child(3),
-tr:nth-child(2) :nth-child(5),
-tr:nth-child(2) :nth-child(7),
-tr:nth-child(3) :nth-child(2),
-tr:nth-child(3) :nth-child(4),
-tr:nth-child(3) :nth-child(6),
-tr:nth-child(3) :nth-child(8),
-tr:nth-child(4) :nth-child(1),
-tr:nth-child(4) :nth-child(3),
-tr:nth-child(4) :nth-child(5),
-tr:nth-child(4) :nth-child(7),
-tr:nth-child(5) :nth-child(2),
-tr:nth-child(5) :nth-child(4),
-tr:nth-child(5) :nth-child(6),
-tr:nth-child(5) :nth-child(8),
-tr:nth-child(6) :nth-child(1),
-tr:nth-child(6) :nth-child(3),
-tr:nth-child(6) :nth-child(5),
-tr:nth-child(6) :nth-child(7),
-tr:nth-child(7) :nth-child(2),
-tr:nth-child(7) :nth-child(4),
-tr:nth-child(7) :nth-child(6),
-tr:nth-child(7) :nth-child(8),
-tr:nth-child(8) :nth-child(1),
-tr:nth-child(8) :nth-child(3),
-tr:nth-child(8) :nth-child(5),
-tr:nth-child(8) :nth-child(7) {
-  background-color: black;
+
+tr:nth-child(odd) td:nth-child(even),
+tr:nth-child(even) td:nth-child(odd) {
+  background: black;
 }
